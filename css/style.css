@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 1050px){
+    .contante {
+        width: 950px;
+        padding: 0px 15px;
+    }
+}
+@media (max-width: 830px){
+    .contante {
+        width: 740px;
+        padding: 0px 15px;
+    }
+}
+@media (max-width: 420px){
+    .contante {   
+        padding: 0px 15px;
+    }
+
+}
+.contante {
+    width: 1400px;
+    height: 600px;
+    background-image: url(../luca-bravo-XJXWbfSo2f0-unsplash\ 1.svg);
+    background-repeat: no-repeat;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+}
+.box_burger {
+    width: 60px;
+    height: 60px;
+    background-image: url(../1486564398-menu2_81519.svg);
+    background-repeat: no-repeat;
+    margin: 15px; 
+}
+.box_nav {
+    display: flex;
+    flex-direction: row;
+}
+.box_nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.box_nav li{
+    background: #FFFFFF;
+    border-radius: 100px;
+    width: 157px;
+    height: 52px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    list-style: none;
+}
+.box_nav1 ul {
+    display: flex;
+    flex-direction: row;
+}
+.box_nav1 li {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 15px;
+    list-style: none;
+}
+.title_title {
+    width: 320px;
+    height: 76px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #000000;
+    position: absolute;
+    Top: 225px;
+    Left: 750px;
+}
+.title_txt {
+    width: 563px;
+    height: 56px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    background: linear-gradient(180deg, #FF0000 0%, #34B7B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration-color: transparent;
+    position: absolute;
+    Top: 310px;
+    Left: 750px;
+}
+.title_btn {
+    width: 224px;
+    height: 60px;
+    background: #AE2B2B;
+    border-radius: 100px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    Top: 400px;
+    Left: 855px;
+}
+.contante_b {
+    width: 1400px;
+    height: 600px;
+    background-image: url(../christopher-gower-m_HRfLhgABo-unsplash\ 1.svg);
+    background-repeat: no-repeat;
+}
+.box_b {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding: 0 0 0 50px;
+}
+.box_burger_b {
+    width: 60px;
+    height: 60px;
+    background-image: url(../1486564398-menu2_81519.svg);
+    background-repeat: no-repeat;
+    margin: 25px 30px 0px 40px; 
+}
+.box_nav__b li{
+    background: #FFFFFF;
+    border-radius: 100px;
+    width: 157px;
+    height: 52px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 40px;
+    list-style: none;
+}
+.title_b {
+    width: 196px;
+    height: 76px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 880px;
+    left: 670px;
+}
+.txt_b {
+    position: absolute;
+    width: 679px;
+    height: 86px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    background: linear-gradient(180deg, #00FF47 0%, #FF0000 78.65%, rgba(0, 255, 71, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration-color: transparent;
+    Top: 976px;
+    Left: 550px;
+}
+.btn_works {
+    position: absolute;
+    width: 307px;
+    height: 83px;
+    background: linear-gradient(180deg, #E404B3 0%, #2316B7 100%);
+    border-radius: 100px;
+    top: 1090px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.contante_c {
+    width: 1400px;
+    height: 600px;
+    background-image: url(../Rectangle\ 18.svg);
+    background-repeat: no-repeat;
+}
+.item1 {
+    position: absolute;
+    top: 1300px;
+    left: 220px;
+}
+.item2 {
+    position: absolute;
+    top: 1300px;
+    left: 770px;
+}
+.itemtxt1 {
+    width: 90px;
+    height: 33px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+.itemtxt2 {
+    width: 104px;
+    height: 26px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+.item21 {
+    width: 380px;
+    height: 339px;
+    background: #FF0F0F;
+}
+.item22 {
+    width: 380px;
+    height: 339px;
+    background: #FF0F0F;
+}
+.a1 {
+    width: 17px;
+    height: 15px;
+    background: #000000;
+    border-radius: 50%;
+}
+.a4 {
+    width: 17px;
+    height: 15px;
+    background: #000000;
+    border-radius: 50%;
+}
+.a2 {
+    width: 17px;
+    height: 15px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.a3 {
+    width: 17px;
+    height: 15px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.a5 {
+    width: 17px;
+    height: 15px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.a6 {
+    width: 17px;
+    height: 15px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.it1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.it1 div {
+    margin: 0 10px;
+}
+.itcenter {
+    display: flex;
+    justify-content: center;
+}
+.itcenter2 {
+    display: flex;
+    justify-content: center;
+}
