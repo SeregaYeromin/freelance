@@ -10,7 +10,7 @@ body {
 .content {
     width: 1500px;
     height: 600px;
-    background-image: url(luca-bravo-XJXWbfSo2f0-unsplash\ 1.svg);
+    background-image: url(../luca-bravo-XJXWbfSo2f0-unsplash\ 1.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -117,7 +117,7 @@ body {
 .content_b {
     width: 1500px;
     height: 600px;
-    background-image: url(christopher-gower-m_HRfLhgABo-unsplash\ 1.svg);
+    background-image: url(../christopher-gower-m_HRfLhgABo-unsplash\ 1.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
