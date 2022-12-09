@@ -3,24 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (max-width: 1050px){
-    .contante {
-        width: 950px;
-        padding: 0px 15px;
-    }
-}
-@media (max-width: 830px){
-    .contante {
-        width: 740px;
-        padding: 0px 15px;
-    }
-}
-@media (max-width: 420px){
-    .contante {   
-        padding: 0px 15px;
-    }
-
-}
 .contante {
     width: 1400px;
     height: 600px;
